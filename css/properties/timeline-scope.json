@@ -1,16 +1,25 @@
 {
   "css": {
     "properties": {
-      "overflow-clip-box-inline": {
+      "timeline-scope": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope",
+          "spec_url": "https://drafts.csswg.org/scroll-animations/#propdef-timeline-scope",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "116",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#enable-experimental-web-platform-features",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "59"
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -27,8 +36,8 @@
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": false,
-            "standard_track": false,
+            "experimental": true,
+            "standard_track": true,
             "deprecated": false
           }
         }
